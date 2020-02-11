@@ -1,0 +1,19 @@
+CLASS zcl_abaplint_action_example01 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS method01.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_abaplint_action_example01 IMPLEMENTATION.
+  METHOD method01.
+    DATA: lv_input TYPE i.
+  ENDMETHOD.
+
+ENDCLASS.

@@ -43,10 +43,10 @@ CLASS lcl_intcode_program IMPLEMENTATION.
 
       CASE lv_input.
         WHEN 1.
-          mt_input[ mt_input[ lv_i + 3 ] + 1 ] =  mt_input[ mt_input[ lv_i + 1 ] + 1 ]
+          mt_input[ mt_input[ lv_i + 3 ] + 1 ] = mt_input[ mt_input[ lv_i + 1 ] + 1 ]
             + mt_input[ mt_input[ lv_i + 2 ] + 1 ].
         WHEN 2.
-          mt_input[ mt_input[ lv_i + 3 ] + 1 ] =  mt_input[ mt_input[ lv_i + 1 ] + 1 ]
+          mt_input[ mt_input[ lv_i + 3 ] + 1 ] = mt_input[ mt_input[ lv_i + 1 ] + 1 ]
             * mt_input[ mt_input[ lv_i + 2 ] + 1 ].
         WHEN 99.
           EXIT.
